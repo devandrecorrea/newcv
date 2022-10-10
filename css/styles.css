@@ -38,49 +38,9 @@ p {
 }
 
 /**********************************************CLASS SELECTORS**********************************************/
-.top-container {
-  background-color: #FFF8E5;
-  color: #FF7145;
-  position: relative;
-  padding-top: 45px;
-}
-
-.mountain {
-  height: 400px;
-  width: 800px;
-  /* padding-top: 50px; */
-}
-
-.middle-container {
-  margin: 100px 0;
-}
-
-.intro {
-  margin: auto;
-  width: 30%;
-}
-
-.dev-img {
-  width: 20%;
-  float: left;
-  margin-right: 30px;
-}
-
-.teach-img {
-  width: 20%;
-  float: right;
-  margin-left: 30px;
-}
-
-.skill-row {
-  margin: 100px auto;
-  text-align: left;
-  width: 50%;
-}
-
-.message {
-  width: 40%;
-  margin: 40px auto 60px;
+.bottom-container {
+  background-color: #FF7145;
+  padding: 50px 0 20px;
 }
 
 .btn {
@@ -110,9 +70,16 @@ p {
   text-decoration: none;
 }
 
-.bottom-container {
-  background-color: #FF7145;
-  padding: 50px 0 20px;
+.copyright {
+  color: #fffbf4;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.dev-img {
+  width: 20%;
+  float: left;
+  margin-right: 30px;
 }
 
 .footer-link {
@@ -126,8 +93,42 @@ p {
   color: #fffbf4;
 }
 
-.copyright {
-  color: #fffbf4;
-  font-size: 0.75rem;
-  padding: 20px 0;
+.intro {
+  margin: auto;
+  width: 30%;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.mountain {
+  height: 400px;
+  width: 800px;
+  /* padding-top: 50px; */
+}
+
+.skill-row {
+  margin: 100px auto;
+  text-align: left;
+  width: 50%;
+}
+
+.teach-img {
+  width: 20%;
+  float: right;
+  margin-left: 30px;
+}
+
+.top-container {
+  background-image: url(https://cdn.pixabay.com/photo/2017/03/27/14/49/beach-2179183_960_720.jpg);
+  background-size: 100%;
+  color: #FF7145;
+  position: relative;
+  padding-top: 65px;
 }
